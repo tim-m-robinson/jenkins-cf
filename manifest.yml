@@ -1,0 +1,5 @@
+---
+applications:
+- name: jenkins-tmr
+  memory: 4G 
+  command: /bin/tini -s -- /usr/local/bin/jenkins.sh
